@@ -1,7 +1,6 @@
 package _011_CSharpBasicsExam_26_August_2014;
 import java.util.Scanner;
-//13:20 -- 13:44 --> 24 minutes, 100/100 от третия път
-//Внимателно да чета условията ! Пишеше, че може да има и главни букви !
+
 public class _04_WinningNumbers {
 
 	public static void main(String[] args) {

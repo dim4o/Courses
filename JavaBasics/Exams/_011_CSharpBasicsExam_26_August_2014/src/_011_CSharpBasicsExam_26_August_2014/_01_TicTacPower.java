@@ -1,6 +1,6 @@
 package _011_CSharpBasicsExam_26_August_2014;
 import java.util.Scanner;
-//11:21 -- 11;41 --> 20 minutes, 100/100 от първия път
+
 public class _01_TicTacPower {
 
 	public static void main(String[] args) {

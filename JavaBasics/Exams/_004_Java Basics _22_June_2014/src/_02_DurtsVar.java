@@ -1,7 +1,6 @@
 import java.lang.String;
 import java.util.Scanner;
 
-//16:39 -- 17:20 --> 41 minutes, 100/100 от първия път
 public class _02_DurtsVar {
 
 	public static void main(String[] args) {

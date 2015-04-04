@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
-//13:40 -- 15:15 --> 1:35
+
 
 public class _03_ExamScore {
 

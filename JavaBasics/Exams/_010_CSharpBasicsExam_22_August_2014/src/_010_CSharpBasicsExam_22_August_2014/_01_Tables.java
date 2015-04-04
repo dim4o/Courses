@@ -1,6 +1,5 @@
 package _010_CSharpBasicsExam_22_August_2014;
 
-//19:27 - 20:09 --> 80/100
 import java.util.Scanner;
 
 public class _01_Tables {

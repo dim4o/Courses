@@ -3,9 +3,6 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-//13:06 -- 13:25 --> 19
-//13:40 -- 14:10 --> 20
-//49 minutes, 100/100 от първия път
 public class _04_Orders {
 
 	public static void main(String[] args) {

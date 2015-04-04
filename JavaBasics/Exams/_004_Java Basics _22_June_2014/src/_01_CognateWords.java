@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-//11:11 -- 11--29 --> 18 minutes
+
 public class _01_CognateWords {
 
 	public static void main(String[] args) {

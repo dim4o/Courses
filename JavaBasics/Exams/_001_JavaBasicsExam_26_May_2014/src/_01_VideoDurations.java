@@ -1,6 +1,5 @@
 import java.util.Scanner;
-//2:01 -- 2:13 --> 12 minutes, 100/100 реално от първия път. 
-//Пак ми даде time limit, но това вече съм сигурен, че е бъг в системата
+
 public class _01_VideoDurations {
 
 	public static void main(String[] args) {

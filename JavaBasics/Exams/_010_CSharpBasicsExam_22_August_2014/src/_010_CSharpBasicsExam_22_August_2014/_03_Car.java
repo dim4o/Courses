@@ -1,6 +1,6 @@
 package _010_CSharpBasicsExam_22_August_2014;
 import java.util.Scanner;
-//18:11 -- 18:55 --> 44 minute, 100/100 от първия път. В това време се вкючва разтакаване...
+
 public class _03_Car {
 
 	public static void main(String[] args) {

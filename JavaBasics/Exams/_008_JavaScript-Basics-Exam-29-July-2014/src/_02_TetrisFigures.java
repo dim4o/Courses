@@ -13,12 +13,7 @@ public class _02_TetrisFigures {
 			matrix[i] = currRow.toCharArray();
 
 		}
-		// for (int i = 0; i < matrix.length; i++) {
-		// for (int j = 0; j < matrix[0].length; j++) {
-		// System.out.print(matrix[i][j]);
-		// }
-		// System.out.println();
-		// }
+
 		String[] arr_L = { "0 0", "1 0", "2 0", "2 1" };
 		String[] arr_J = { "0 0", "1 0", "2 0", "2 -1" };
 		String[] arr_O = { "0 0", "0 1", "1 0", "1 1" };

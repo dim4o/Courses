@@ -4,7 +4,6 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-//15:51 -- 16:56 - 1:05h 
 public class _04_LogsAggregator {
 
 	public static void main(String[] args) {

@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class _01_CognateWordsVar {
-//15:10 -- 15:30 --> 20 minutes, 100/100 от първия път
+
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);

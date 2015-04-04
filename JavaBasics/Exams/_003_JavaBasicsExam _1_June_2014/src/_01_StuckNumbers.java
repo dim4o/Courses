@@ -1,6 +1,5 @@
 import java.util.Scanner;
-//9:45 -- 10:15 --> 30 min, 100/100, 4-ти път: 2 грешни форматирания на изхода 
-//После дава time limit и накрая без да поменям кода ми даде 100/100
+
 public class _01_StuckNumbers {
 
 	public static void main(String[] args) {

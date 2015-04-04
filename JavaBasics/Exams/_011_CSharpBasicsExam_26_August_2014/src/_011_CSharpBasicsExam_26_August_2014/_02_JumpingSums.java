@@ -1,10 +1,6 @@
 package _011_CSharpBasicsExam_26_August_2014;
 import java.util.Scanner;
 
-//11:46 -- 12:22 условие --14+22 = 36
-//+15 мин - разгеле тазбрах условието
-//14:08 -- 14:44, 100/100 от първия път
-//общо: 36 + 15 + 36 = 77 MINUTES = 1:17 min. Никак не е лошо за тази задача !
 public class _02_JumpingSums {
 
 	public static void main(String[] args) {

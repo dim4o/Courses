@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//16:18 -- 16:29 --> 11 minutes
+
 public class _01_CountBeers {
 
 	public static void main(String[] args) {

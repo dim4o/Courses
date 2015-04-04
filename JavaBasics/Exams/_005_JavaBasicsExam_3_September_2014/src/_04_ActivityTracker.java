@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Map;
 import java.util.Scanner;
-//17:38 -- 18:18 --> 22 + 18 = 40 minutes, 60/100
+
 import java.util.TreeMap;
 
 public class _04_ActivityTracker {

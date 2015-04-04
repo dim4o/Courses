@@ -1,6 +1,5 @@
 import java.math.BigDecimal;
 import java.util.Scanner;
-//11:50 -- 3:44
 
 public class _03_SimpleExpression {
 

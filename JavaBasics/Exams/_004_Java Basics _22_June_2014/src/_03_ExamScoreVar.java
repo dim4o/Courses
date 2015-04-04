@@ -3,9 +3,7 @@ import java.util.Collections;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
-//изключително тъпа грешка направих,защото се опитах да се изтарикатя. 
-//Сложих ключ String вместо Integer. Много ясно, че подредбата няма да е същата!
-//Извод: парсвай си всички стойности в съответния тип данно, особено ако искаш да ги подредиш ! 
+ 
 public class _03_ExamScoreVar {
 
 	public static void main(String[] args) {

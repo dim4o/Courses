@@ -1,6 +1,6 @@
 package _010_CSharpBasicsExam_22_August_2014;
 import java.util.Scanner;
-//23:40 -- 23:11 --> 31 minutes, 100/100 от първия път
+
 public class _02_BookOrders {
 
 	public static void main(String[] args) {

@@ -4,9 +4,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
-//11:30 -- 14:16 --> около час търсене на метод как да не се пише броя на линиите, 
-//после се къпах незнам колко, тестването също е бавно на ръка..., 
-//така че като извадим тези лутания я реших за прилично време
+
 public class _04_Concerts {
 
 	public static void main(String[] args) {

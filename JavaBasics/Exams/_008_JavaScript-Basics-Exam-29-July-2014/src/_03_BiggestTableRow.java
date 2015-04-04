@@ -1,8 +1,5 @@
 import java.util.Scanner;
-//Много важен извод: Double.MIN_VALUE не работи, както се очаква. 
-//По дефиниция е най-малката положителна и стойност(без 0), 
-//а не най-малката стойност на double. По-добре ще е да се използва
-//Double.NEGATIVE_INFINITY
+
 public class _03_BiggestTableRow {
 
 	public static void main(String[] args) {

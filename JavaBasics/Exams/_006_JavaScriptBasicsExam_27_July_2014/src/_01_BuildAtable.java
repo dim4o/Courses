@@ -1,6 +1,5 @@
 import java.util.Scanner;
-//Бях улисан в други подробности, но не забелязах доста съществен момент - резултата може да прехвърли int, 
-//затова трябва да се ползва long. Само един тест гърми с int, но е достатъчно...
+
 public class _01_BuildAtable {
 
 	public static void main(String[] args) {

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//15:05 -- 15:12 --> 7 minutes, 100/100 от първия път 
+
 
 public class _01_DozenEggs {
 

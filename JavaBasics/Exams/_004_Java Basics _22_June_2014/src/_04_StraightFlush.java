@@ -3,7 +3,6 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-//15:20 -- 16:44 --> 1:22h, prez tova vreme sym spal pone 20-30 minuti
 public class _04_StraightFlush {
 
 	public static void main(String[] args) {

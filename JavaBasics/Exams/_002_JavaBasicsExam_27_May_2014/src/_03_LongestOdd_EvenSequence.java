@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-//17:27 - 17:58 -->80/100, 18:19 стоп
 
 public class _03_LongestOdd_EvenSequence {
 

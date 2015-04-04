@@ -3,17 +3,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-//15 minutes --> 60/100, 5:12 --> 100/100
-//16:44 -- 16:11 --> 27 minutes в търсене на грешката
-//Тотал: ~15 + 27 = ~42 minutes 
-//Изводи:
-//1. Вместо прост лист лекомислено бях сложил TreeSet. Но в задачата никъде не е казно, 
-//че трябва да се отпечатат само различни елементи. В случая трябва да използам List и после да го сортитрам.
-//2. Добре съобразих, че ще трябва да използвам BigDecimal
-//3. Не бях предвидил случаите, когато се подават 1 и 2 елемента
-//4. Бях останал с впечатление, че BigDecimal не се отпечатва в scientific notation, но изглежда не е така
-//наложи се да използвам метода .toPlainString());
-//Трябва добре да проуча BigDecimal класа и неговите методи !
 public class _02_ThreeLargestNumbers {
 
 	public static void main(String[] args) {

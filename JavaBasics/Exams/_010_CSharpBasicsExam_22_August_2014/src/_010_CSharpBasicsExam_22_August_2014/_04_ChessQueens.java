@@ -2,7 +2,6 @@ package _010_CSharpBasicsExam_22_August_2014;
 
 import java.util.Scanner;
 
-//00:55 -- 2:05 --> 1:10h 
 public class _04_ChessQueens {
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")

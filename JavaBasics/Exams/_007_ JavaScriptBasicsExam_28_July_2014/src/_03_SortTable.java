@@ -3,12 +3,6 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-//1. Pro4itane na vhoda
-//2. za vsqka liniq izvli4am cenata i q slagam kato klu4 v TreeMap, za stojnost slagam celiq red. Trqbav da izvele4em i imeto na produkta
-//3. V tree mapa vsyshtnost trqbva stoinostta da e treeMap, koito ima klu4 imeto i stoinost celiq red
-//<tr><td>Vitamin B5, 350 mg (new)</td><td>16.50</td><td>+3</td></tr>
-//<tr><td>Vitamin B5, 350 mg</td><td>16.50</td><td>+3</td></tr>
-//Защо е така> Не трябва ли <tr><td>Vitamin B5, 350 mg</td><td>16.50</td><td>+3</td></tr> да е първо
 public class _03_SortTable {
 
 	public static void main(String[] args) {
