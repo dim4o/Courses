@@ -16,15 +16,14 @@ class DistanceInLabyrinth
         public int Col { get; set;}
     }
 
-    public static void CalcDistance(string[,] inputMatrix, int startRow, int startCol)
+    private static HelpNode startNode = new HelpNode(0, 0);
+
+    public static void CalcDistance(string[,] inputMatrix)
     {
         int size = inputMatrix.GetLength(0);
-        int[,] passed = new int[size, size];
         Queue<HelpNode> queue = new Queue<HelpNode>();
         int[,] matrix = ParseMatrix(inputMatrix);
-        HelpNode startNode = new HelpNode(startRow, startCol);
-        passed[startRow, startCol] = 1;
-        matrix[startRow, startCol] = 0;
+
         queue.Enqueue(startNode);
 
         while (queue.Count > 0)
@@ -41,20 +40,17 @@ class DistanceInLabyrinth
 
             foreach (var child in children)
             {
-                if (inBounds(child.Row, child.Col, size) 
-                    && matrix[child.Row, child.Col] >= 0 
-                    && passed[child.Row, child.Col] == 0)
+                if (inBounds(child.Row, child.Col, size) && matrix[child.Row, child.Col] == 0)
                 {
                     matrix[child.Row, child.Col] = matrix[row, col] + 1;
                     queue.Enqueue(new HelpNode(child.Row, child.Col));
                 }
             }
 
-            passed[row, col] = 1;
             queue.Dequeue();
         }
 
-        PrintMatrix(matrix, startRow, startCol);
+        PrintMatrix(matrix);
     }
 
     // Checks whether the row and col are in array bounds
@@ -82,7 +78,7 @@ class DistanceInLabyrinth
                         break;
                     case "x": result[i, j] = -1;
                         break;
-                    default: result[i, j] = -2;
+                    default: startNode.Row = i; startNode.Col = j;
                         break;
                 }
             }
@@ -91,13 +87,13 @@ class DistanceInLabyrinth
         return result;
     }
 
-    static void PrintMatrix(int[,] matrix, int startRow, int startCol)
+    static void PrintMatrix(int[,] matrix)
     {
         for (int i = 0; i < matrix.GetLength(0); i++)
         {
             for (int j = 0; j < matrix.GetLength(1); j++)
             {
-                if (i == startRow && j == startCol)
+                if (i == startNode.Row && j == startNode.Col)
                 {
                     Console.Write("*".PadRight(3));
                     continue;

@@ -14,7 +14,7 @@ class DistanceInLabyrinthTest
             {"0", "0", "0", "x", "0", "x"},
         };
 
-        DistanceInLabyrinth.CalcDistance(inputMatrix0, 2, 1);
+        DistanceInLabyrinth.CalcDistance(inputMatrix0);
 
         Console.WriteLine();
 
@@ -29,7 +29,7 @@ class DistanceInLabyrinthTest
             {"0", "0", "0", "x", "0", "x", "0"},
         };
 
-        DistanceInLabyrinth.CalcDistance(inputMatrix1, 4, 2);
+        DistanceInLabyrinth.CalcDistance(inputMatrix1);
 
         Console.WriteLine();
 
@@ -45,7 +45,7 @@ class DistanceInLabyrinthTest
             {"0", "x", "0", "0", "0", "0", "0", "0"}
         };
 
-        DistanceInLabyrinth.CalcDistance(inputMatrix2, 4, 6);
+        DistanceInLabyrinth.CalcDistance(inputMatrix2);
     }
 }
 
