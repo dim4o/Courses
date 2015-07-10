@@ -46,6 +46,22 @@ class DistanceInLabyrinthTest
         };
 
         DistanceInLabyrinth.CalcDistance(inputMatrix2);
+
+        Console.WriteLine();
+
+        string[,] inputMatrix3 = 
+        {
+            {"*", "0", "0", "0", "0", "0", "0", "0"},
+            {"0", "0", "0", "0", "0", "0", "0", "0"},
+            {"0", "0", "0", "0", "0", "0", "0", "0"},
+            {"0", "0", "0", "0", "0", "0", "0", "0"},
+            {"0", "0", "0", "0", "0", "0", "0", "0"},
+            {"0", "0", "0", "0", "0", "0", "0", "0"},
+            {"0", "0", "0", "0", "0", "0", "0", "0"},
+            {"0", "0", "0", "0", "0", "0", "0", "0"},
+        };
+
+        DistanceInLabyrinth.CalcDistance(inputMatrix3);
     }
 }
 

@@ -13,7 +13,7 @@ class DistanceInLabyrinth
         }
 
         public int Row { get; set; }
-        public int Col { get; set;}
+        public int Col { get; set; }
     }
 
     private static HelpNode startNode = new HelpNode(0, 0);
@@ -21,14 +21,12 @@ class DistanceInLabyrinth
     public static void CalcDistance(string[,] inputMatrix)
     {
         int size = inputMatrix.GetLength(0);
-        Queue<HelpNode> queue = new Queue<HelpNode>();
         int[,] matrix = ParseMatrix(inputMatrix);
-
-        queue.Enqueue(startNode);
+        Queue<HelpNode> queue = new Queue<HelpNode>(new[] { startNode });
 
         while (queue.Count > 0)
         {
-            HelpNode currNode = queue.Peek();
+            HelpNode currNode = queue.Dequeue();
             int row = currNode.Row;
             int col = currNode.Col;
 
@@ -46,14 +44,11 @@ class DistanceInLabyrinth
                     queue.Enqueue(new HelpNode(child.Row, child.Col));
                 }
             }
-
-            queue.Dequeue();
         }
 
         PrintMatrix(matrix);
     }
 
-    // Checks whether the row and col are in array bounds
     public static bool inBounds(int row, int col, int size)
     {
         if (row >=0 && col >= 0 && row < size && col < size)
