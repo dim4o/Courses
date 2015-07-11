@@ -113,10 +113,10 @@ class ReversedList<T> : IEnumerable<T>
         StringBuilder result = new StringBuilder();
 
         result.Append("{");
-        for (int i = 0; i < count; i++)
+        for (int i = count - 1; i >= 0; i--)
         {
             result.Append(elements[i]);
-            if (i < count - 1)
+            if (i > 0)
             {
                 result.Append(", ");
             }
