@@ -17,7 +17,10 @@ class ReversedListTest
             list.Add(i);
             Console.WriteLine(list);
         }
+
+        // ToString()
         Console.WriteLine(list);
+
         // removing element by index test
         for (int i = 9; i >= 0; i--)
         {
@@ -35,49 +38,21 @@ class ReversedListTest
         list.Add(0);
         list.Add(3);
         list.Add(4);
+
+        // ToString()
         Console.WriteLine(list);
 
-        //Console.WriteLine(list[6]);
-
+        // Foreach
         foreach (var item in list)
         {
             Console.WriteLine(item);
         }
-        
 
-        //// accessing element by index test
-        //Console.WriteLine(list[3]);
-        //Console.WriteLine(list[6]);
-        //Console.WriteLine(list[9]);
-        //Console.WriteLine();
+        // Count
+        Console.WriteLine("Count: {0}", list.Count);
 
-        ////finding element index by given value test
-        //Console.WriteLine(list.Find(3));
-        //Console.WriteLine(list.Find(6));
-        //Console.WriteLine(list.Find(9));
-        //Console.WriteLine(list.Find(15));
-        //Console.WriteLine(list.Find(-15));
-        //Console.WriteLine();
-
-        //// contains test
-        //Console.WriteLine(list.Contains(3));
-        //Console.WriteLine(list.Contains(6));
-        //Console.WriteLine(list.Contains(9));
-        //Console.WriteLine(list.Contains(15));
-        //Console.WriteLine(list.Contains(-15));
-        //Console.WriteLine();
-
-        //// finding the minimal element test
-        //Console.WriteLine(list.Min());
-        //Console.WriteLine(list.Max());
-        //Console.WriteLine();
-
-        ////ToString() text
-        //Console.WriteLine(list.ToString());
-
-        //// clearing the list
-        //list.Clear();
-        //Console.WriteLine(list);
+        // Capacity
+        Console.WriteLine("Capacity: {0}", list.Capacity);
     }
 }
 

@@ -6,7 +6,6 @@ using System.Text;
 class ReversedList<T> : IEnumerable<T>
 {
     private const int defaultCapacity = 4;
-    private int capacity = 0;
     private int count = 0;
     private T[] elements;
 

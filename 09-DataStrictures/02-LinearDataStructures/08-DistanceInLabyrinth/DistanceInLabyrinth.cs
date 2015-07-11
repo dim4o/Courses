@@ -49,7 +49,7 @@ class DistanceInLabyrinth
         PrintMatrix(matrix);
     }
 
-    public static bool inBounds(int row, int col, int size)
+    private static bool inBounds(int row, int col, int size)
     {
         if (row >=0 && col >= 0 && row < size && col < size)
 	    {
@@ -59,7 +59,7 @@ class DistanceInLabyrinth
     }
 
     // Converts string matrix to integer matrix
-    static int[,] ParseMatrix(string[,] matrix)
+    private static int[,] ParseMatrix(string[,] matrix)
     {
         int[,] result = new int[matrix.GetLength(0), matrix.GetLength(1)];
 
@@ -82,7 +82,7 @@ class DistanceInLabyrinth
         return result;
     }
 
-    static void PrintMatrix(int[,] matrix)
+    public static void PrintMatrix(int[,] matrix)
     {
         for (int i = 0; i < matrix.GetLength(0); i++)
         {
