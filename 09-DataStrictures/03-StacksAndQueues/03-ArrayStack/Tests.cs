@@ -3,12 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using _03_ArrayStack;
 
 class Program
 {
     static void Main()
     {
         var stack = new ArrayStack<int>();
+
+        int[] arr1 = stack.ToArray();
+
+        Console.WriteLine(string.Join(", ", arr1));
 
         stack.Push(1);
         stack.Push(2);
@@ -28,6 +33,10 @@ class Program
         Console.WriteLine(stack.Count);
         int[] arr = stack.ToArray();
         Console.WriteLine(string.Join(", ", arr));
+
+        var stack1 = new ArrayStack<int>();
+
+        stack1.Pop();
         
     }
 }

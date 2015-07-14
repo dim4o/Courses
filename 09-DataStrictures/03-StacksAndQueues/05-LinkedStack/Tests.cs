@@ -1,4 +1,5 @@
 ﻿using System;
+using _05_LinkedStack;
 
 class Tests
 {
@@ -17,6 +18,9 @@ class Tests
         var arr = stack.ToArray();
 
         Console.WriteLine(string.Join(", ", arr));
+
+        var stack1 = new LinkedStack<int>();
+        stack1.Pop();
     }
 }
 

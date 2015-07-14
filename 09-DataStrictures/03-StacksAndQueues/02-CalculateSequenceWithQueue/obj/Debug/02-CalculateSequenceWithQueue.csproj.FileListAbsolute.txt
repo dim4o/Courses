@@ -3,3 +3,4 @@ C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\03-Stack
 C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\03-StacksAndQueues\02-CalculateSequenceWithQueue\bin\Debug\CalculateSequenceWithQueue.pdb
 C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\03-StacksAndQueues\02-CalculateSequenceWithQueue\obj\Debug\CalculateSequenceWithQueue.exe
 C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\03-StacksAndQueues\02-CalculateSequenceWithQueue\obj\Debug\CalculateSequenceWithQueue.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\03-StacksAndQueues\02-CalculateSequenceWithQueue\obj\Debug\02-CalculateSequenceWithQueue.csprojResolveAssemblyReference.cache

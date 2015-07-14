@@ -8,109 +8,116 @@
  * [x] ToArray()
  * [x] OptimizeCapacity()
  */
-class ArrayStack<T>
+namespace _03_ArrayStack
 {
-    private const int defaultCapacity = 16;
-    private int count;
-    private T[] elements;
-    private int top;
-
-    public ArrayStack()
+    public class ArrayStack<T>
     {
-        this.elements = new T[defaultCapacity];
-        this.count = 0;
-        this.top = 0;
-    }
+        private const int InitialCapacity = 16;
+        private int count;
+        private T[] elements;
+        private int top;
 
-    public int Count
-    {
-        get { return this.count; }
-    }
-
-    public void Push(T item)
-    {
-        if (count == this.elements.Length)
+        public ArrayStack()
         {
-            OptimizeCpacity(true);
+            this.elements = new T[InitialCapacity];
         }
-        this.elements[top] = item;
-        top++;
-        count++;
-    }
 
-    public T Pop()
-    {
-        if (count == 0)
+        public ArrayStack(int InitialCapacity)
         {
-            throw new InvalidOperationException("Cannot Pop() value from empty stack!");
+            this.elements = new T[InitialCapacity];
         }
-        top--;
-        count--;
-        var returnValue = this.elements[top];
-        this.elements[top] = default(T);
 
 
-        if (count <= elements.Length / 2)
+        public int Count
         {
-            OptimizeCpacity(false);
+            get { return this.count; }
         }
-        return returnValue;
-    }
 
-    public T Peek()
-    {
-        return this.elements[top - 1];
-    }
-
-    public void Clear()
-    {
-        this.elements = new T[defaultCapacity];
-        this.count = 0;
-        this.top = 0;
-    }
-
-    public bool Contains(T item)
-    {
-        for (int i = 0; i < top; i++)
+        public void Push(T item)
         {
-            if (elements[i].Equals(item))
+            if (count == this.elements.Length)
             {
-                return true;
+                OptimizeCpacity(true);
             }
+            this.elements[top] = item;
+            top++;
+            count++;
         }
-        return false;
-    }
 
-    public T[] ToArray()
-    {
-        T[] array = new T[this.Count];
-
-        for (int i = 0; i < this.count; i++)
+        public T Pop()
         {
-            array[i] = this.elements[i];
+            if (count == 0)
+            {
+                throw new InvalidOperationException("Cannot Pop() value from empty stack!");
+            }
+            top--;
+            count--;
+            var returnValue = this.elements[top];
+            this.elements[top] = default(T);
+
+
+            if (count <= elements.Length / 2)
+            {
+                OptimizeCpacity(false);
+            }
+            return returnValue;
         }
-        return array;
-    }
 
-    // Implements Grow/Compress Array for size optimization
-    private void OptimizeCpacity(bool increase)
-    {
-        T[] newStack = null;
-
-        if (increase)
+        public T Peek()
         {
-            newStack = new T[this.elements.Length * 2];
-        }
-        else
-        {
-            newStack = new T[this.elements.Length / 2];
+            return this.elements[top - 1];
         }
 
-        for (int i = 0; i < top; i++)
+        public void Clear()
         {
-            newStack[i] = elements[i];
+            this.elements = new T[InitialCapacity];
+            this.count = 0;
+            this.top = 0;
         }
 
-        this.elements = newStack;
+        public bool Contains(T item)
+        {
+            for (int i = 0; i < top; i++)
+            {
+                if (elements[i].Equals(item))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public T[] ToArray()
+        {
+            T[] array = new T[this.Count];
+
+            for (int i = 0; i < this.count; i++)
+            {
+                array[i] = this.elements[i];
+            }
+            return array;
+        }
+
+        // Implements Grow/Compress Array for size optimization
+        private void OptimizeCpacity(bool increase)
+        {
+            T[] newStack = null;
+
+            if (increase)
+            {
+                newStack = new T[this.elements.Length * 2];
+            }
+            else
+            {
+                newStack = new T[this.elements.Length / 2];
+            }
+
+            for (int i = 0; i < top; i++)
+            {
+                newStack[i] = elements[i];
+            }
+
+            this.elements = newStack;
+        }
     }
 }
