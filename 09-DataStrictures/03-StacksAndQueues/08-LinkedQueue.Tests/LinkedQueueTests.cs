@@ -9,7 +9,7 @@ namespace _08_LinkedQueue.Tests
     {
 
         [TestMethod]
-        public void TestPushDequeueElement()
+        public void TestEnqueueDequeueElement()
         {
             var queue = new LinkedQueue<int>();
             Assert.AreEqual(0, queue.Count);
