@@ -28,7 +28,8 @@ class SequenceNM
         {
             var currentItem = queue.Dequeue();
 
-            if (currentItem.Value < end)
+            if (currentItem.Value < end || currentItem.Value < 0 
+                && end < 0 && currentItem.Value > end)
             {
                 queue.Enqueue(new Item(currentItem.Value * 2, currentItem));
                 queue.Enqueue(new Item(currentItem.Value + 2, currentItem));
@@ -42,7 +43,7 @@ class SequenceNM
         }
         if (queue.Count == 0)
         {
-            Console.WriteLine("(No solution");
+            Console.WriteLine("(No solution)");
         }
     }
      
