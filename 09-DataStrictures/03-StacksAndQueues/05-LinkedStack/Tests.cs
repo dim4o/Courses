@@ -11,7 +11,7 @@ class Tests
         stack.Push(2);
         stack.Push(3);
 
-        stack.Pop();
+        //stack.Pop();
         //stack.Push(4);
         //stack.Push(5);
         //stack.Push(6);
@@ -20,7 +20,7 @@ class Tests
         Console.WriteLine(string.Join(", ", arr));
 
         var stack1 = new LinkedStack<int>();
-        stack1.Pop();
+        //stack1.Pop();
     }
 }
 

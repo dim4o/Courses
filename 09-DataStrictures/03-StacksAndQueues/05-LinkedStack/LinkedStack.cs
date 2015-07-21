@@ -98,13 +98,13 @@ namespace _05_LinkedStack
         {
             T[] array = new T[this.count];
             Node<T> currNode = this.head;
-            int currIdex = this.count - 1;
+            int currIdex = 0;
 
             while (currNode != null)
             {
                 array[currIdex] = currNode.Value;
                 currNode = currNode.Next;
-                currIdex--;
+                currIdex++;
             }
 
             return array;

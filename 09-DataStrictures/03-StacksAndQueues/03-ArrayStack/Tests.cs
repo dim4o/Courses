@@ -36,7 +36,14 @@ class Program
 
         var stack1 = new ArrayStack<int>();
 
-        stack1.Pop();
+        //stack1.Pop();
+        var st = new Stack<int>();
+        //st.Push(1);
+        //st.Push(2);
+        //st.Push(3);
+        //Console.WriteLine(string.Join(", ", st.ToArray()));
+
+
         
     }
 }

@@ -18,6 +18,13 @@ class Tests
         //queue.Dequeue();
         var arr = queue.ToArray();
         Console.WriteLine(string.Join(", ", arr));
+        //var q = new Queue<int>();
+        //q.Enqueue(1);
+        //q.Enqueue(2);
+        //q.Enqueue(3);
+        //Console.WriteLine(string.Join(", ", q.ToArray()));
+
+
     }
 }
 

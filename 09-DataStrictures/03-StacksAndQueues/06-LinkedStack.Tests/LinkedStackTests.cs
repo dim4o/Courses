@@ -62,7 +62,7 @@ namespace _06_LinkedStackTests
 
             for (int i = 0; i < arrayWithOrigins.Length; i++)
             {
-                Assert.AreEqual(arrayWithOrigins[i], stackToArray[i]);
+                Assert.AreEqual(arrayWithOrigins[stack.Count - i - 1], stackToArray[i]);
             }
         }
 

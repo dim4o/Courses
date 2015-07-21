@@ -7,7 +7,6 @@ namespace _08_LinkedQueue.Tests
     [TestClass]
     public class LinkedQueueTests
     {
-
         [TestMethod]
         public void TestEnqueueDequeueElement()
         {

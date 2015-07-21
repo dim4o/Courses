@@ -93,7 +93,7 @@ namespace _03_ArrayStack
 
             for (int i = 0; i < this.count; i++)
             {
-                array[i] = this.elements[i];
+                array[i] = this.elements[this.count - i - 1];
             }
             return array;
         }
