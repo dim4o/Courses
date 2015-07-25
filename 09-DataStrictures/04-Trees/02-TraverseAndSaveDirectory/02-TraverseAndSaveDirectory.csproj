@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="File.cs" />
     <Compile Include="Folder.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="TraverseDirectoryMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
