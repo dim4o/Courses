@@ -52,8 +52,8 @@ namespace _01_PlayWithTrees
 
             // All paths in the tree with given sum P of their nodes
             Console.WriteLine("Paths of sum {0}: ", pathSum);
-            var startLeafs = FindAllPathWithGivenSum(pathSum);
-            foreach (var startLeaf in startLeafs)
+            var startLeaves = FindAllPathWithGivenSum(pathSum);
+            foreach (var startLeaf in startLeaves)
             {
                 Console.WriteLine(string.Join(" -> ", GetPath(startLeaf)));
             }
