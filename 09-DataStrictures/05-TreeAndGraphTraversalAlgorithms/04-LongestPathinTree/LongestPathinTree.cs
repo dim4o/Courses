@@ -41,7 +41,7 @@ namespace _04_LongestPathinTree
                 parents[child] = parent;
             }
 
-            var leaves = GetLeafs();
+            var leaves = GetLeaves();
             int root = GetRoot();
             var pathsToRootList = new List<List<int>>();
 
@@ -77,7 +77,7 @@ namespace _04_LongestPathinTree
             Console.WriteLine(maximumPath);
         }
 
-        private static List<int> GetLeafs()
+        private static List<int> GetLeaves()
         {
             var leaves = treeNodes.Where(n => n.Value.Count == 0).Select(n => n.Key).ToList();
             return leaves;
