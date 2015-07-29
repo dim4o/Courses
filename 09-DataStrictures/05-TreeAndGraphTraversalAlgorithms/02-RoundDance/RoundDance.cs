@@ -9,11 +9,25 @@ namespace _02_RoundDance
     class RoundDance
     {
         static Dictionary<int, List<int>> graph = new Dictionary<int, List<int>>();
+         
         static List<int> visited = new List<int>();
-        static int maxLength = 1;
+        static int currentLength = 1;
+        static int maxLength = 0;
 
         static void Main()
         {
+            //graph.Add(1, new List<int>() { 7, 2, 4, 3 });
+            //graph.Add(2, new List<int>() { 1 });
+            //graph.Add(3, new List<int>() { 1 });
+            //graph.Add(4, new List<int>() { 1, 5 });
+            //graph.Add(5, new List<int>() { 4 });
+            //graph.Add(7, new List<int>() { 1, 9, 8 });
+            //graph.Add(8, new List<int>() { 7, 11 });
+            //graph.Add(9, new List<int>() { 7 });
+            //graph.Add(11, new List<int>() { 8 });
+
+            //int leadNumber = 11;
+
             int numberOfFriendships = int.Parse(Console.ReadLine());
             int leadNumber = int.Parse(Console.ReadLine());
 
@@ -31,7 +45,7 @@ namespace _02_RoundDance
                 {
                     graph[second] = new List<int>();
                 }
-                
+
                 graph[first].Add(second);
                 graph[second].Add(first);
             }
@@ -46,14 +60,19 @@ namespace _02_RoundDance
             if (!visited.Contains(node))
             {
                 visited.Add(node);
-                maxLength = 1;
+
+                currentLength++;
+                if (currentLength > maxLength)
+                {
+                    maxLength = currentLength;
+                }
 
                 foreach (var childNode in graph[node])
                 {
                     DFS(childNode);
                 }
                 
-                maxLength++;
+                currentLength = 1;
             }
         }
     }
