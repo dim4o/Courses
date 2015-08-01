@@ -27,6 +27,7 @@ namespace _01_WhoIsTheRoot
                 .Select(c => c.i).FirstOrDefault();
 
             int hasNoParentCount = hasParent.Where(n => n == false).Count();
+            //int hasNoChildCount = hasChild.Where(n => n == false).Count();
 
             if (hasNoParentCount == 1 && hasChild[index] == true)
             {
