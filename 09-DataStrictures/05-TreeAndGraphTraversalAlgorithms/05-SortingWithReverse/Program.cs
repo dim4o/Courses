@@ -20,7 +20,7 @@ namespace _05_SortingWithReverse
             }
         }
 
-        private static Queue<Sequence> canditatesQueue = new Queue<Sequence>();
+        private static Queue<Sequence> candidatesQueue = new Queue<Sequence>();
         private static Sequence sortedSequence = null;
         private static HashSet<int> uniqueSet = new HashSet<int>();
         private static int reverseFactor;
@@ -31,19 +31,19 @@ namespace _05_SortingWithReverse
             int count = int.Parse(Console.ReadLine());
             int[] initialSequence = Console.ReadLine().Split(' ').Select(s => int.Parse(s)).ToArray();
             reverseFactor = int.Parse(Console.ReadLine());
-            canditatesQueue.Enqueue(new Sequence(initialSequence, null));
+            candidatesQueue.Enqueue(new Sequence(initialSequence, null));
             Console.WriteLine();
 
             if (!IsSorted(initialSequence))
             {
-                while (canditatesQueue.Count > 0)
+                while (candidatesQueue.Count > 0)
                 {
                     if (found)
                     {
                         break;
                     }
-                    GenerateAllSequencesWithSingleReverse(canditatesQueue.Peek());
-                    uniqueSet.Add(GetHashCode(canditatesQueue.Dequeue().Value));
+                    GenerateAllSequencesWithSingleReverse(candidatesQueue.Peek());
+                    uniqueSet.Add(GetHashCode(candidatesQueue.Dequeue().Value));
                 }
                 PrintResult(sortedSequence);
             }
@@ -74,9 +74,9 @@ namespace _05_SortingWithReverse
             {
                 int[] candidate = ReverseSequence(i, sequence.Value);
                 //Console.WriteLine(string.Join(", ", candidate));
-                if (IsSorted(candidate) || IsSorted(canditatesQueue.Peek().Value))
+                if (IsSorted(candidate) || IsSorted(candidatesQueue.Peek().Value))
                 {
-                    sortedSequence = new Sequence(candidate, canditatesQueue.Peek());
+                    sortedSequence = new Sequence(candidate, candidatesQueue.Peek());
                     found = true;
                     return;
                 }
@@ -84,7 +84,7 @@ namespace _05_SortingWithReverse
                 if (!uniqueSet.Contains(key))
                 {
                     uniqueSet.Add(key);
-                    canditatesQueue.Enqueue(new Sequence(candidate, canditatesQueue.Peek()));
+                    candidatesQueue.Enqueue(new Sequence(candidate, candidatesQueue.Peek()));
                 }
             }
         }
