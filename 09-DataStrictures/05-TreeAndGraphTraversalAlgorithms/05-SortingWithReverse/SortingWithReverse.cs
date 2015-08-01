@@ -22,7 +22,7 @@ namespace _05_SortingWithReverse
 
         private static Queue<Sequence> candidatesQueue = new Queue<Sequence>();
         private static Sequence sortedSequence = null;
-        private static HashSet<int> uniqueSet = new HashSet<int>();
+        private static HashSet<string> uniqueSet = new HashSet<string>();
         private static int reverseFactor;
         static bool found = false;
   
@@ -73,14 +73,14 @@ namespace _05_SortingWithReverse
             for (int i = 0; i < sequence.Value.Length - reverseFactor + 1; i++)
             {
                 int[] candidate = ReverseSequence(i, sequence.Value);
-                //Console.WriteLine(string.Join(", ", candidate));
                 if (IsSorted(candidate) || IsSorted(candidatesQueue.Peek().Value))
                 {
                     sortedSequence = new Sequence(candidate, candidatesQueue.Peek());
                     found = true;
                     return;
                 }
-                int key = GetHashCode(candidate);
+
+                string key = GetHashCode(candidate);
                 if (!uniqueSet.Contains(key))
                 {
                     uniqueSet.Add(key);
@@ -113,16 +113,9 @@ namespace _05_SortingWithReverse
             return reversed;
         }
 
-        private static int GetHashCode(int[] arr)
+        private static string GetHashCode(int[] arr)
         {
-            int pow = 1;
-            int hashCode = 0;
-            foreach (var num in arr)
-            {
-                hashCode += pow * num;
-                pow *= 10;
-            }
-            return hashCode;
+            return string.Join(".", arr);
         }
     }
 }
