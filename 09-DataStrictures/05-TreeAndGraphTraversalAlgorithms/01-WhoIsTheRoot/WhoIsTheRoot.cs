@@ -8,9 +8,10 @@ namespace _01_WhoIsTheRoot
     {
         static void Main()
         {
+            int numberOfNodes = int.Parse(Console.ReadLine());
             int numberOfEdges = int.Parse(Console.ReadLine());
-            bool[] hasParent = new bool[numberOfEdges];
-            bool[] hasChild = new bool[numberOfEdges];
+            bool[] hasParent = new bool[numberOfNodes];
+            bool[] hasChild = new bool[numberOfNodes];
 
             for (int i = 0; i < numberOfEdges; i++)
             {
@@ -27,16 +28,18 @@ namespace _01_WhoIsTheRoot
                 .Select(c => c.i).FirstOrDefault();
 
             int hasNoParentCount = hasParent.Where(n => n == false).Count();
-            //int hasNoChildCount = hasChild.Where(n => n == false).Count();
 
             if (hasNoParentCount == 1 && hasChild[index] == true)
             {
                 Console.WriteLine(index);
             }
-            else if ((hasNoParentCount == 1 && hasChild[index] == false)
-                || hasNoParentCount > 1)
+            else if (hasNoParentCount == 1 && hasChild[index] == false)
             {
-                Console.WriteLine("Forest is not a tree!");
+                Console.WriteLine("Single (not-connected) node is not a root!");
+            }
+            else if (hasNoParentCount > 1)
+            {
+                Console.WriteLine("Multiple root nodes!");
             }
             else
             {

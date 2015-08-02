@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace _04_LongestPathinTree
 {
-    class LongestPathinTree
+    class LongestPathInTree
     {
         static Dictionary<int, List<int>> treeNodes = new Dictionary<int, List<int>>();
         static Dictionary<int, int?> parents = new Dictionary<int, int?>();
