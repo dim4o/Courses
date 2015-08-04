@@ -4,27 +4,27 @@ class TestOrderedSetMain
 {
     static void Main()
     {
-        var tree = new OrderedSet<int>();
+        var set = new OrderedSet<int>();
         Console.WriteLine("Add: 29, 11, 35, 7, 16, 23, 37, 17");
-        tree.Add(29);
-        tree.Add(11);
-        tree.Add(35);
-        tree.Add(7);
-        tree.Add(16);
-        tree.Add(23);
-        tree.Add(37);
-        tree.Add(17);
+        set.Add(29);
+        set.Add(11);
+        set.Add(35);
+        set.Add(7);
+        set.Add(16);
+        set.Add(23);
+        set.Add(37);
+        set.Add(17);
 
         Console.WriteLine();
 
         Console.WriteLine("In-order print: ");
-        tree.PrintInorder(tree.Root);
+        set.PrintInorder(set.Root);
 
         Console.WriteLine();
         Console.WriteLine();
 
         Console.WriteLine("Foreach: ");
-        foreach (var item in tree)
+        foreach (var item in set)
         {
             Console.Write(item + " ");
         }
@@ -33,80 +33,79 @@ class TestOrderedSetMain
         Console.WriteLine();
 
         Console.WriteLine("EachInOrder(Action<T> action): ");
-        tree.EachInOrder(n => Console.Write(n + " "));
+        set.EachInOrder(n => Console.Write(n + " "));
 
         Console.WriteLine();
         Console.WriteLine();
 
         Console.WriteLine("Insert 23: ");
-        tree.Add(23);
-        tree.EachInOrder(n => Console.Write(n + " "));
+        set.Add(23);
+        set.EachInOrder(n => Console.Write(n + " "));
 
         Console.WriteLine();
         Console.WriteLine();
 
         Console.WriteLine("Remove 16: ");
-        tree.Remove(16);
-        tree.EachInOrder(n => Console.Write(n + " "));
+        set.Remove(16);
+        set.EachInOrder(n => Console.Write(n + " "));
 
         Console.WriteLine();
         Console.WriteLine();
 
         Console.WriteLine("Find 7: ");
-        var find7 = tree.Find(7) != null ? "7" : "null";
+        var find7 = set.Find(7) != null ? "7" : "null";
         Console.WriteLine(find7);
 
 
         Console.WriteLine();
 
         Console.WriteLine("Find 200: ");
-        var find200 = tree.Find(200) != null ? "200" : "null";
+        var find200 = set.Find(200) != null ? "200" : "null";
         Console.WriteLine(find200);
 
         Console.WriteLine();
 
         Console.WriteLine("Contains 7: ");
-        var contains7 = tree.Contains(7) == true ? "true" : "false";
+        var contains7 = set.Contains(7) == true ? "true" : "false";
         Console.WriteLine(contains7);
 
         Console.WriteLine();
 
         Console.WriteLine("Contains 200: ");
-        var contains200 = tree.Contains(200) == true ? "true" : "false";
+        var contains200 = set.Contains(200) == true ? "true" : "false";
         Console.WriteLine(contains200);
 
         Console.WriteLine();
 
         Console.WriteLine("Count:");
-        Console.WriteLine(tree.Count);
+        Console.WriteLine(set.Count);
 
         Console.WriteLine(
             "Count after Add and Remove: Add 1, Remove 23, Add 5, " +
             "Add 14, Add 108, Remove 5, Remove 12 (no such value)");
-        tree.Add(1);
-        tree.Remove(23);
-        tree.Add(5);
-        tree.Add(14);
-        tree.Add(108);
-        tree.Remove(5);
-        tree.Remove(12);// no such value
-        Console.WriteLine("Count: {0}", tree.Count); 
-        tree.EachInOrder(n => Console.Write(n + " "));
+        set.Add(1);
+        set.Remove(23);
+        set.Add(5);
+        set.Add(14);
+        set.Add(108);
+        set.Remove(5);
+        set.Remove(12);// no such value
+        Console.WriteLine("Count: {0}", set.Count); 
+        set.EachInOrder(n => Console.Write(n + " "));
 
         Console.WriteLine();
         Console.WriteLine();
 
-        Console.WriteLine("Min value: {0}", tree.Min());
+        Console.WriteLine("Min value: {0}", set.Min());
 
         Console.WriteLine();
 
-        Console.WriteLine("Min value: {0}", tree.Max());
+        Console.WriteLine("Min value: {0}", set.Max());
 
         Console.WriteLine();
 
-        tree.Clear();
-        Console.WriteLine("Clear: {0} (Count)", tree.Count);
-
+        set.Clear();
+        Console.WriteLine("Clear: {0} (Count)", set.Count);
     }
 }
 

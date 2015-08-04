@@ -280,19 +280,7 @@ class OrderedSet<T> : IEnumerable<T> where T : IComparable<T>
 
     public IEnumerator<T> GetEnumerator()
     {
-        if (this.root.LeftChild != null)
-        {
-            foreach (var child in this.root.LeftChild)
-                yield return child;
-        }
-
-        yield return this.root.Value;
-
-        if (this.root.RightChild != null)
-        {
-            foreach (var child in this.root.RightChild)
-                yield return child;
-        }
+        return this.root.GetEnumerator();
     }
 
     System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
