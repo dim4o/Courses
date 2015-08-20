@@ -1,0 +1,8 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\04-StringEditor\bin\Debug\04-StringEditor.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\04-StringEditor\obj\Debug\04-StringEditor.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\04-StringEditor\bin\Debug\04-StringEditor.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\04-StringEditor\bin\Debug\04-StringEditor.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\04-StringEditor\bin\Debug\PowerCollections.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\04-StringEditor\bin\Debug\PowerCollections.xml
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\04-StringEditor\obj\Debug\04-StringEditor.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\04-StringEditor\obj\Debug\04-StringEditor.pdb

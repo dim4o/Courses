@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\03-BinaryHeap\bin\Debug\03-BinaryHeap.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\03-BinaryHeap\bin\Debug\03-BinaryHeap.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\03-BinaryHeap\bin\Debug\03-BinaryHeap.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\03-BinaryHeap\obj\Debug\03-BinaryHeap.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\03-BinaryHeap\obj\Debug\03-BinaryHeap.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\03-BinaryHeap\obj\Debug\03-BinaryHeap.csprojResolveAssemblyReference.cache

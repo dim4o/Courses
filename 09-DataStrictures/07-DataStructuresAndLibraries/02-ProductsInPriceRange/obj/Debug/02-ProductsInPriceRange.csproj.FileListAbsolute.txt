@@ -1,0 +1,7 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\02-ProductsInPriceRange\bin\Debug\02-ProductsInPriceRange.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\02-ProductsInPriceRange\bin\Debug\02-ProductsInPriceRange.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\02-ProductsInPriceRange\bin\Debug\02-ProductsInPriceRange.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\02-ProductsInPriceRange\bin\Debug\PowerCollections.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\02-ProductsInPriceRange\bin\Debug\PowerCollections.xml
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\02-ProductsInPriceRange\obj\Debug\02-ProductsInPriceRange.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\07-DataStructuresAndLibraries\02-ProductsInPriceRange\obj\Debug\02-ProductsInPriceRange.pdb
