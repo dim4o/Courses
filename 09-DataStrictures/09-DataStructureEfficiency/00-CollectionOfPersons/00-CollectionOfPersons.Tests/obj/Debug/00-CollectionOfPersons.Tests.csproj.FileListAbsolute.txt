@@ -1,0 +1,8 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons.Tests\bin\Debug\Collection-of-Persons.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons.Tests\bin\Debug\Collection-of-Persons.Tests.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons.Tests\bin\Debug\Collection-of-Persons.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons.Tests\bin\Debug\Collection-of-Persons.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons.Tests\obj\Debug\00-CollectionOfPersons.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons.Tests\obj\Debug\Collection-of-Persons.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons.Tests\obj\Debug\Collection-of-Persons.Tests.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons.Tests\bin\Debug\PowerCollections.dll

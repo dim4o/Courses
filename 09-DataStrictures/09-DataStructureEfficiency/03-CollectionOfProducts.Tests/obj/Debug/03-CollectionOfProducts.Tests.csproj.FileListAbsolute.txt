@@ -1,0 +1,9 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\03-CollectionOfProducts.Tests\bin\Debug\03-CollectionOfProducts.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\03-CollectionOfProducts.Tests\bin\Debug\03-CollectionOfProducts.Tests.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\03-CollectionOfProducts.Tests\bin\Debug\03-CollectionОfProducts.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\03-CollectionOfProducts.Tests\bin\Debug\PowerCollections.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\03-CollectionOfProducts.Tests\bin\Debug\03-CollectionОfProducts.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\03-CollectionOfProducts.Tests\bin\Debug\PowerCollections.xml
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\03-CollectionOfProducts.Tests\obj\Debug\03-CollectionOfProducts.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\03-CollectionOfProducts.Tests\obj\Debug\03-CollectionOfProducts.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\03-CollectionOfProducts.Tests\obj\Debug\03-CollectionOfProducts.Tests.pdb
