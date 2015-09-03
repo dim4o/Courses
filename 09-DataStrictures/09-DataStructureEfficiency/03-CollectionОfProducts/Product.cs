@@ -14,7 +14,28 @@ namespace _03_CollectionОfProducts
 
         public int CompareTo(Product other)
         {
+            if (this.Id== other.Id)
+            {
+                return 0;
+            }
             return this.Id.CompareTo(other.Id);
+        }
+
+        public override bool Equals(object obj)
+        {
+            var item = obj as Product;
+
+            if (item == null)
+            {
+                return false;
+            }
+
+            return this.Id.Equals(item.Id);
+        }
+
+        public override int GetHashCode()
+        {
+            return this.Id.GetHashCode();
         }
     }
 }
