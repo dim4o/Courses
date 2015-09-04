@@ -122,7 +122,70 @@ namespace _03_CollectionOfProducts.Tests
             };
             products.Add(newProduct.Id, newProduct.Title, newProduct.Supplier, newProduct.Price);
             
-            Assert.AreEqual(10, products.ToList().Count());
+            Assert.AreEqual(10, products.Count);
+            Assert.AreEqual(3600, products["11aa33"].Price);
+        }
+
+        [TestMethod]
+        public void Add_Product_With_Existing_Id_Should_Replace_the_OldProduct_And_Affects_ProductsByTitle()
+        {
+            var products = InitializeCollectionOfProducts();
+            var newProduct = new Product()
+            {
+                Id = "11aa33",
+                Title = "Laptop Lenovo Novo",
+                Price = 3600,
+                Supplier = "SuperTech"
+            };
+            products.Add(newProduct.Id, newProduct.Title, newProduct.Supplier, newProduct.Price);
+
+            var productsByTitle = products.FindProductsByTitle("Laptop Lenovo ThinkPad");
+
+            Assert.AreEqual(10, products.Count);
+            Assert.AreEqual(null, productsByTitle);
+            Assert.AreEqual("Laptop Lenovo Novo", products["11aa33"].Title);
+        }
+
+        [TestMethod]
+        public void Add_Product_With_Existing_Id_Should_Replace_the_OldProduct_And_Affects_ProductsByPriceRange()
+        {
+            var products = InitializeCollectionOfProducts();
+            var newProduct = new Product()
+            {
+                Id = "11aa33",
+                Title = "Laptop Lenovo Novo",
+                Price = 3600,
+                Supplier = "SuperTech"
+            };
+            products.Add(newProduct.Id, newProduct.Title, newProduct.Supplier, newProduct.Price);
+
+            var productsByPriceRange1 = products.FindProductsInPriceRange(3600, 4000).ToList();
+            var productsByPriceRange2 = products.FindProductsInPriceRange(1800, 1800);
+
+            Assert.AreEqual(10, products.Count);
+            Assert.AreEqual("11aa33", productsByPriceRange1[0].Id);
+            Assert.AreEqual("Laptop Lenovo Novo", productsByPriceRange1[0].Title);
+            Assert.AreEqual(0, productsByPriceRange2.Count());
+        }
+
+        [TestMethod]
+        public void Add_Product_With_Existing_Id_Should_Replace_the_OldProduct_And_Affects_ProductsByTitleAndPriceRange()
+        {
+            var products = InitializeCollectionOfProducts();
+            var newProduct = new Product()
+            {
+                Id = "11aa33",
+                Title = "Laptop Lenovo Novo",
+                Price = 3600,
+                Supplier = "SuperTech"
+            };
+            products.Add(newProduct.Id, newProduct.Title, newProduct.Supplier, newProduct.Price);
+
+            var productsByTitlePriceRange = products.FindProductByTitleAndPriceRange("Laptop Lenovo Novo", 3600, 4000).ToList();
+
+            Assert.AreEqual(10, products.Count);
+            Assert.AreEqual("11aa33", productsByTitlePriceRange[0].Id);
+            Assert.AreEqual("Laptop Lenovo Novo", productsByTitlePriceRange[0].Title);
         }
 
         [TestMethod]
