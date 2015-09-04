@@ -36,6 +36,10 @@ namespace _03_CollectionОfProducts
                 Id = id, Title = title, Supplier = supplier, Price = price
             };
 
+            if (productsById.ContainsKey(id))
+            {
+                Remove(id);
+            }
             // Add product by id
             productsById.EnsureKeyExists(id);
             productsById[id] = product;
