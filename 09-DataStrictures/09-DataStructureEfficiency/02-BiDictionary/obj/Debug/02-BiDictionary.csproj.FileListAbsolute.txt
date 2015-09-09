@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\02-BiDictionary\bin\Debug\02-BiDictionary.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\02-BiDictionary\bin\Debug\02-BiDictionary.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\02-BiDictionary\bin\Debug\02-BiDictionary.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\02-BiDictionary\obj\Debug\02-BiDictionary.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\02-BiDictionary\obj\Debug\02-BiDictionary.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\02-BiDictionary\obj\Debug\02-BiDictionary.pdb

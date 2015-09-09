@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\01-StudentsAndCourses\bin\Debug\01-StudentsAndCourses.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\01-StudentsAndCourses\bin\Debug\01-StudentsAndCourses.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\01-StudentsAndCourses\bin\Debug\01-StudentsAndCourses.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\01-StudentsAndCourses\obj\Debug\01-StudentsAndCourses.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\01-StudentsAndCourses\obj\Debug\01-StudentsAndCourses.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\01-StudentsAndCourses\obj\Debug\01-StudentsAndCourses.pdb

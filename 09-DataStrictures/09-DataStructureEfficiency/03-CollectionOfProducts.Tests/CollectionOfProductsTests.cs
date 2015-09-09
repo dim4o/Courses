@@ -142,7 +142,7 @@ namespace _03_CollectionOfProducts.Tests
             var productsByTitle = products.FindProductsByTitle("Laptop Lenovo ThinkPad");
 
             Assert.AreEqual(10, products.Count);
-            Assert.AreEqual(null, productsByTitle);
+            Assert.AreEqual(2, productsByTitle.Count());
             Assert.AreEqual("Laptop Lenovo Novo", products["11aa33"].Title);
         }
 

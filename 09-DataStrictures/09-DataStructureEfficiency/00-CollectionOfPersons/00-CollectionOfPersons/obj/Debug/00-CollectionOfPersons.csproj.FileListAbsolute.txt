@@ -1,0 +1,7 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons\bin\Debug\Collection-of-Persons.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons\bin\Debug\Collection-of-Persons.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons\bin\Debug\Collection-of-Persons.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons\bin\Debug\PowerCollections.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons\obj\Debug\Collection-of-Persons.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons\obj\Debug\Collection-of-Persons.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\02_DataStructures\09-DataStructureEfficiency\00-CollectionOfPersons\00-CollectionOfPersons\obj\Debug\00-CollectionOfPersons.csprojResolveAssemblyReference.cache
