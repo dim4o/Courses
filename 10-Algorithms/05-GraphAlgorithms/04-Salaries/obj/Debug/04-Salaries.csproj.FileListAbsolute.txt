@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\04-Salaries\bin\Debug\04-Salaries.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\04-Salaries\bin\Debug\04-Salaries.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\04-Salaries\bin\Debug\04-Salaries.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\04-Salaries\obj\Debug\04-Salaries.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\04-Salaries\obj\Debug\04-Salaries.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\04-Salaries\obj\Debug\04-Salaries.pdb

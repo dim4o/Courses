@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\02-AreasInMatrix\bin\Debug\02-AreasInMatrix.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\02-AreasInMatrix\bin\Debug\02-AreasInMatrix.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\02-AreasInMatrix\bin\Debug\02-AreasInMatrix.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\02-AreasInMatrix\obj\Debug\02-AreasInMatrix.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\02-AreasInMatrix\obj\Debug\02-AreasInMatrix.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\02-AreasInMatrix\obj\Debug\02-AreasInMatrix.pdb

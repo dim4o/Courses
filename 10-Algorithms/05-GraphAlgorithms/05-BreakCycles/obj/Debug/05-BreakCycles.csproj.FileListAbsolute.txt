@@ -1,0 +1,9 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles\bin\Debug\05-BreakCycles.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles\bin\Debug\05-BreakCycles.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles\bin\Debug\05-BreakCycles.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles\obj\Debug\05-BreakCycles.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles\obj\Debug\05-BreakCycles.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles\obj\Debug\05-BreakCycles.pdb
+D:\WorkSpace\Courses\Algorithms\Homework\SENT\05-GraphAlgorithms\05-BreakCycles\bin\Debug\05-BreakCycles.exe.config
+D:\WorkSpace\Courses\Algorithms\Homework\SENT\05-GraphAlgorithms\05-BreakCycles\obj\Debug\05-BreakCycles.exe
+D:\WorkSpace\Courses\Algorithms\Homework\SENT\05-GraphAlgorithms\05-BreakCycles\obj\Debug\05-BreakCycles.pdb

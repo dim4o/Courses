@@ -1,0 +1,7 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles.Tests\bin\Debug\05-BreakCycles.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles.Tests\bin\Debug\05-BreakCycles.Tests.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles.Tests\bin\Debug\05-BreakCycles.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles.Tests\bin\Debug\05-BreakCycles.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles.Tests\obj\Debug\05-BreakCycles.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles.Tests\obj\Debug\05-BreakCycles.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\05-BreakCycles.Tests\obj\Debug\05-BreakCycles.Tests.pdb

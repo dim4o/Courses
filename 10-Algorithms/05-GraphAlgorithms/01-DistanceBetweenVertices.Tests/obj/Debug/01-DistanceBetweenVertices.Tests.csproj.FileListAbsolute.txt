@@ -1,0 +1,7 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\01-DistanceBetweenVertices.Tests\bin\Debug\01-DistanceBetweenVertices.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\01-DistanceBetweenVertices.Tests\bin\Debug\01-DistanceBetweenVertices.Tests.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\01-DistanceBetweenVertices.Tests\bin\Debug\01-DistanceBetweenVertices.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\01-DistanceBetweenVertices.Tests\obj\Debug\01-DistanceBetweenVertices.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\01-DistanceBetweenVertices.Tests\obj\Debug\01-DistanceBetweenVertices.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\01-DistanceBetweenVertices.Tests\obj\Debug\01-DistanceBetweenVertices.Tests.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\05-GraphAlgorithms\01-DistanceBetweenVertices.Tests\bin\Debug\01-DistanceBetweenVertices.pdb
