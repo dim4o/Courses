@@ -55,22 +55,6 @@ class CyclesInGraph
     }
 }
 
-//    while (true)
-//    {
-//        string nodeToRemove = graph.Keys.FirstOrDefault(n => predecessorsCount[n] == 0);
-//        if (nodeToRemove == null)
-//        {
-//            // No more nodes for removal (with o predecessors)
-//            break;
-//        }
-//        foreach (var childNode in graph[nodeToRemove])
-//        {
-//            predecessorsCount[childNode]--;
-//        }
-//        graph.Remove(nodeToRemove);
-//        removedNodes.Add(nodeToRemove);
-//    }
-
 //private static Dictionary<char, List<char>> graph = new Dictionary<char, List<char>>()
 //{
 //    {'K', new List<char>(){'J'}},

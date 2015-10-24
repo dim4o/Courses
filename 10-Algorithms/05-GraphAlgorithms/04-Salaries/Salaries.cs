@@ -58,12 +58,7 @@ class Salaries
             successorsCount.Remove(currentNode);
         }
 
-        decimal result = 0;
-        foreach (var s in salaries)
-        {
-            result += s;
-        }
-        Console.WriteLine(result);
+        Console.WriteLine(salaries.Sum());
     }
 }
 

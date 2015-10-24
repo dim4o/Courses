@@ -4,18 +4,7 @@ using System.Linq;
 
 public class DistanceBetweenVertices
 {
-    private static Dictionary<int, List<int>> inputGraph = new Dictionary<int, List<int>>()
-    {
-        { 11, new List<int>(){ 4 } },
-        { 4, new List<int>(){ 12, 1 } },
-        { 1, new List<int>(){ 12, 21, 7 } }, 
-        { 7, new List<int>(){ 21 } },
-        { 12, new List<int>(){ 4, 19 } },
-        { 19, new List<int>(){ 1, 21 } },
-        { 21, new List<int>(){ 14, 31 } },
-        { 14, new List<int>(){ 14 } },
-        { 31, new List<int>(){ } },
-    };
+    private static Dictionary<int, List<int>> inputGraph = new Dictionary<int, List<int>>();
     private static HashSet<int> visited = new HashSet<int>();
 
     static void Main()
@@ -62,10 +51,6 @@ public class DistanceBetweenVertices
         }
         minLen = graph[node].Aggregate(minLen, (current, child) => 
             DFS(graph, child, targetNode, current, len));
-        //foreach (var child in graph[node])
-        //{
-        //    minLen = DFS(graph, child, targetNode, minLen, len);
-        //}
         visited.Remove(node);
         len--;
 
@@ -91,30 +76,6 @@ public class DistanceBetweenVertices
 
         return graph;
     }
-
-    //public static int minLen = int.MaxValue;
-    //private static int len;
-
-    //public static void DFS(Dictionary<int, List<int>> graph, int node, int targetNode)
-    //{
-    //    if (!visited.Contains(node))
-    //    {
-    //        visited.Add(node);
-    //        len++;
-    //        if (node == targetNode && len < minLen)
-    //        {
-    //            minLen = len;
-    //        }
-
-    //        foreach (var child in graph[node])
-    //        {
-    //            DFS(graph, child, targetNode);
-    //        }
-
-    //        visited.Remove(node);
-    //        len--;
-    //    }
-    //}
 }
 
 

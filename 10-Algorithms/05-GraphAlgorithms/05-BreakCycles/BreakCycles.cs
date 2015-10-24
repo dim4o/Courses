@@ -16,14 +16,12 @@ public class BreakCycles
     private static Dictionary<string, List<string>> ParseGraphFromInput()
     {
         var graph = new Dictionary<string, List<string>>();
-
         var input = Console.ReadLine();
         while (input != String.Empty)
         {
             var arr = input.Split(new char[] { '-', '>' },
                 StringSplitOptions.RemoveEmptyEntries);
             var parent = arr[0].Trim();
-
             var children = arr[1].Split(new char[] { ',', ' ' },
                 StringSplitOptions.RemoveEmptyEntries).ToList();
 
@@ -36,20 +34,16 @@ public class BreakCycles
 
     private static List<Edge> EnumerateEdges(Dictionary<string, List<string>> graph)
     {
-        var edges = (from node in graph.Keys 
-                     from child in graph[node] 
-                     select new Edge() {Start = node, End = child}).ToList();
-        edges.Sort();
-        return edges;
+        return (from node in graph.Keys 
+                from child in graph[node]
+                select new Edge() { Start = node, End = child })
+                .OrderBy(e => e).ToList();
     }
 
     private static void PrintResult(List<Edge> result)
     {
         Console.WriteLine("Edgeds to remove: {0}", result.Count);
-        foreach (var edge in result)
-        {
-            Console.WriteLine("{0} – {1}", edge.Start, edge.End);
-        }
+        result.ForEach(e => Console.WriteLine("{0} – {1}", e.Start, e.End));
     }
 
     public static List<Edge> BreakGraph(Dictionary<string, List<string>> graph)
@@ -86,10 +80,7 @@ public class BreakCycles
         if (!visited.Contains(start))
         {
             visited.Add(start);
-            foreach (var child in graph[start])
-            {
-                DfsHasPathCheck(graph, child, end, visited);
-            }
+            graph[start].ForEach(child => DfsHasPathCheck(graph, child, end, visited));
         }
     }
 }
