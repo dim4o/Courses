@@ -2,16 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 
-public class DistanceBetweenVertices
+public static class DistanceBetweenVertices
 {
-    private static Dictionary<int, List<int>> inputGraph = new Dictionary<int, List<int>>();
-    private static HashSet<int> visited = new HashSet<int>();
-
     static void Main()
     {
-        inputGraph = ReadGraph();
+        Console.WriteLine("Graph:");
+        var inputGraph = ReadGraph();
         Console.WriteLine("Distances to find:");
-
         string input = Console.ReadLine();
 
         while (input != String.Empty)
@@ -19,40 +16,35 @@ public class DistanceBetweenVertices
             string[] arr = input.Split('-');
             int startNode = int.Parse(arr[0]);
             int targetNode = int.Parse(arr[1]);
-            int result = DFS(inputGraph, startNode, targetNode);
+            int result = FindMinDistance(inputGraph, startNode, targetNode);
             Console.WriteLine("{{{0}, {1}}} -> {2}", startNode, targetNode, result);
             input = Console.ReadLine();
-            visited = new HashSet<int>();
         }
     }
 
-    public static int DFS(Dictionary<int, List<int>> graph, int node, int targetNode)
+    public static int FindMinDistance(Dictionary<int, List<int>> graph, int startNode, int targetNode)
     {
-        int result = DFS(graph, node, targetNode, int.MaxValue, -1);
-        if (result != int.MaxValue)
-        {
-            return result;
-        }
-        return -1;
+        int result = Dfs(graph, startNode, targetNode, int.MaxValue, -1, new HashSet<int>());
+        return result != int.MaxValue ? result : -1;
     }
 
-    private static int DFS(Dictionary<int, List<int>> graph, int node, int targetNode, int minLen, int len)
+    private static int Dfs(Dictionary<int, List<int>> graph, int startNode, int targetNode, 
+        int minLen, int len, HashSet<int> visited)
     {
-        if (visited.Contains(node))
+        if (visited.Contains(startNode))
         {
             return minLen;
         }
 
-        visited.Add(node);
+        visited.Add(startNode);
         len++;
-        if (node == targetNode && len < minLen)
+        if (startNode == targetNode && len < minLen)
         {
             minLen = len;
         }
-        minLen = graph[node].Aggregate(minLen, (current, child) => 
-            DFS(graph, child, targetNode, current, len));
-        visited.Remove(node);
-        len--;
+        minLen = graph[startNode].Aggregate(minLen, (current, child) => 
+            Dfs(graph, child, targetNode, current, len, visited));
+        visited.Remove(startNode);
 
         return minLen;
     }

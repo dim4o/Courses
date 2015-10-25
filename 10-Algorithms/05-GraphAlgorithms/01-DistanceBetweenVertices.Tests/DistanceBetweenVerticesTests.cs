@@ -42,30 +42,30 @@ public class DistanceBetweenVerticesTests
     [TestMethod]
     public void TestGraphWith_9_vertices()
     {
-        Assert.AreEqual(3, DistanceBetweenVertices.DFS(Graph01, 11, 7));
-        Assert.AreEqual(3, DistanceBetweenVertices.DFS(Graph01, 11, 21));
-        Assert.AreEqual(-1, DistanceBetweenVertices.DFS(Graph01, 21, 4));
-        Assert.AreEqual(2, DistanceBetweenVertices.DFS(Graph01, 19, 14));
-        Assert.AreEqual(2, DistanceBetweenVertices.DFS(Graph01, 1, 4));
-        Assert.AreEqual(-1, DistanceBetweenVertices.DFS(Graph01, 1, 11));
-        Assert.AreEqual(-1, DistanceBetweenVertices.DFS(Graph01, 31, 21));
-        Assert.AreEqual(4, DistanceBetweenVertices.DFS(Graph01, 11, 14));
+        Assert.AreEqual(3, DistanceBetweenVertices.FindMinDistance(Graph01, 11, 7));
+        Assert.AreEqual(3, DistanceBetweenVertices.FindMinDistance(Graph01, 11, 21));
+        Assert.AreEqual(-1, DistanceBetweenVertices.FindMinDistance(Graph01, 21, 4));
+        Assert.AreEqual(2, DistanceBetweenVertices.FindMinDistance(Graph01, 19, 14));
+        Assert.AreEqual(2, DistanceBetweenVertices.FindMinDistance(Graph01, 1, 4));
+        Assert.AreEqual(-1, DistanceBetweenVertices.FindMinDistance(Graph01, 1, 11));
+        Assert.AreEqual(-1, DistanceBetweenVertices.FindMinDistance(Graph01, 31, 21));
+        Assert.AreEqual(4, DistanceBetweenVertices.FindMinDistance(Graph01, 11, 14));
     }
 
     [TestMethod]
     public void TestGraphWith_7_vertices()
     {
-        Assert.AreEqual(2, DistanceBetweenVertices.DFS(Graph02, 1, 6));
-        Assert.AreEqual(-1, DistanceBetweenVertices.DFS(Graph02, 1, 5));
-        Assert.AreEqual(3, DistanceBetweenVertices.DFS(Graph02, 5, 6));
-        Assert.AreEqual(1, DistanceBetweenVertices.DFS(Graph02, 5, 8));
+        Assert.AreEqual(2, DistanceBetweenVertices.FindMinDistance(Graph02, 1, 6));
+        Assert.AreEqual(-1, DistanceBetweenVertices.FindMinDistance(Graph02, 1, 5));
+        Assert.AreEqual(3, DistanceBetweenVertices.FindMinDistance(Graph02, 5, 6));
+        Assert.AreEqual(1, DistanceBetweenVertices.FindMinDistance(Graph02, 5, 8));
     }
 
     [TestMethod]
     public void TestGraphWith_2_vertices()
     {
-        Assert.AreEqual(1, DistanceBetweenVertices.DFS(Graph03, 1, 2));
-        Assert.AreEqual(-1, DistanceBetweenVertices.DFS(Graph03, 2, 1));
+        Assert.AreEqual(1, DistanceBetweenVertices.FindMinDistance(Graph03, 1, 2));
+        Assert.AreEqual(-1, DistanceBetweenVertices.FindMinDistance(Graph03, 2, 1));
     }
 }
 
