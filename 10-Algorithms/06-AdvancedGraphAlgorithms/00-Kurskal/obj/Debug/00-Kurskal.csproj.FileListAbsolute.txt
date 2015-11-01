@@ -1,6 +1,0 @@
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kurskal\bin\Debug\Kurskal.exe.config
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kurskal\bin\Debug\Kurskal.exe
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kurskal\bin\Debug\Kurskal.pdb
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kurskal\obj\Debug\Kurskal.exe
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kurskal\obj\Debug\Kurskal.pdb
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kurskal\obj\Debug\00-Kurskal.csprojResolveAssemblyReference.cache

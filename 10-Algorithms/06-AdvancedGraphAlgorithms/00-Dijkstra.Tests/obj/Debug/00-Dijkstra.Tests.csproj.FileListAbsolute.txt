@@ -1,7 +1,0 @@
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra.Tests\bin\Debug\Dijkstra.Tests.dll
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra.Tests\bin\Debug\Dijkstra.Tests.pdb
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra.Tests\bin\Debug\Dijkstra.exe
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra.Tests\bin\Debug\Dijkstra.pdb
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra.Tests\obj\Debug\00-Dijkstra.Tests.csprojResolveAssemblyReference.cache
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra.Tests\obj\Debug\Dijkstra.Tests.dll
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra.Tests\obj\Debug\Dijkstra.Tests.pdb
