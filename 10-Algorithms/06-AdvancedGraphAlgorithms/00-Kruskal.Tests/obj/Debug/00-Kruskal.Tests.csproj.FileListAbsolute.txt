@@ -1,7 +1,0 @@
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kruskal.Tests\bin\Debug\Kruskal.Tests.dll
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kruskal.Tests\bin\Debug\Kruskal.Tests.pdb
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kruskal.Tests\obj\Debug\00-Kruskal.Tests.csprojResolveAssemblyReference.cache
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kruskal.Tests\obj\Debug\Kruskal.Tests.dll
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kruskal.Tests\obj\Debug\Kruskal.Tests.pdb
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kruskal.Tests\bin\Debug\ModifiedKruskalAlgorithm.exe
-C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Kruskal.Tests\bin\Debug\ModifiedKruskalAlgorithm.pdb
