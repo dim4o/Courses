@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra\bin\Debug\Dijkstra.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra\bin\Debug\Dijkstra.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra\bin\Debug\Dijkstra.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra\obj\Debug\Dijkstra.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra\obj\Debug\Dijkstra.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\00-Dijkstra\obj\Debug\00-Dijkstra.csprojResolveAssemblyReference.cache

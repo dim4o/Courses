@@ -1,0 +1,9 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\ModifiedKruskalAlgorithm\bin\Debug\ModifiedKruskalAlgorithm.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\ModifiedKruskalAlgorithm\bin\Debug\ModifiedKruskalAlgorithm.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\ModifiedKruskalAlgorithm\bin\Debug\ModifiedKruskalAlgorithm.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\ModifiedKruskalAlgorithm\obj\Debug\02-ModifiedKruskalAlgorithm.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\ModifiedKruskalAlgorithm\obj\Debug\ModifiedKruskalAlgorithm.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\ModifiedKruskalAlgorithm\obj\Debug\ModifiedKruskalAlgorithm.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\02-ModifiedKruskalAlgorithm\bin\Debug\ModifiedKruskalAlgorithm.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\02-ModifiedKruskalAlgorithm\obj\Debug\ModifiedKruskalAlgorithm.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\06-AdvancedGraphAlgorithms\02-ModifiedKruskalAlgorithm\obj\Debug\ModifiedKruskalAlgorithm.pdb
