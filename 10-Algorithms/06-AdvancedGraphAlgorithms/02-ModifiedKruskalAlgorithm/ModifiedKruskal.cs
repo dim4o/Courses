@@ -22,18 +22,15 @@ namespace ModifiedKruskalAlgorithm
                 if (firstNode.Parent.Value != secondNode.Parent.Value)
                 {
                     spanningTree.Add(edge);
-                    if (secondNode.Parent.Value != secondNode.Value && 
-                        firstNode.Parent.Value == firstNode.Value)
+                    if (IsRoot(firstNode) && !IsRoot(secondNode))
                     {
                         MergeTrees(firstNode, secondNode);
                     }
-                    else if (firstNode.Parent.Value != firstNode.Value && 
-                        secondNode.Parent.Value == secondNode.Value)
+                    else if (!IsRoot(firstNode) && IsRoot(secondNode))
                     {
                         MergeTrees(secondNode, firstNode);
                     }
-                    else if (secondNode.Parent.Value == secondNode.Value && 
-                        firstNode.Parent.Value == firstNode.Value)
+                    else if (IsRoot(firstNode) && IsRoot(secondNode))
                     {
                         MergeTrees(secondNode.Parent, firstNode);
                     }
@@ -41,6 +38,11 @@ namespace ModifiedKruskalAlgorithm
             }
 
             return spanningTree;
+        }
+
+        private static bool IsRoot(Node node)
+        {
+            return node.Value == node.Parent.Value;
         }
 
         private static void MergeTrees(Node firstNode, Node secondNode)
@@ -57,12 +59,3 @@ namespace ModifiedKruskalAlgorithm
         }
     }
 }
-
-//node2.Parent = node1;
-//node1.Children.Add(node2);
-//foreach (var child in node2.Children)
-//{
-//    child.Parent = node1;
-//    node1.Children.Add(child);
-//}
-//node2.Children = new List<Node>();

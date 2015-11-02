@@ -14,16 +14,5 @@
             this.Parent = this;
             this.Children = new List<Node>();
         }
-
-        public override bool Equals(object obj)
-        {
-            var item = obj as Node;
-
-            if (this.Value == item.Value)
-            {
-                return true;
-            }
-            return false;
-        }
     }
 }
