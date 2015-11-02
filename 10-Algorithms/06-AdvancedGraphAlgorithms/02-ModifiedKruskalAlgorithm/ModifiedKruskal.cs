@@ -17,8 +17,8 @@ namespace ModifiedKruskalAlgorithm
             foreach (var edge in edges)
             {
                 Node firstNode = nodes[edge.StartNode];
-                Node secondNode =  nodes[edge.EndNode];
-                
+                Node secondNode = nodes[edge.EndNode];
+
                 if (firstNode.Parent.Value != secondNode.Parent.Value)
                 {
                     spanningTree.Add(edge);
@@ -26,13 +26,9 @@ namespace ModifiedKruskalAlgorithm
                     {
                         MergeTrees(firstNode, secondNode);
                     }
-                    else if (!IsRoot(firstNode) && IsRoot(secondNode))
+                    else
                     {
                         MergeTrees(secondNode, firstNode);
-                    }
-                    else if (IsRoot(firstNode) && IsRoot(secondNode))
-                    {
-                        MergeTrees(secondNode.Parent, firstNode);
                     }
                 }
             }
@@ -59,3 +55,12 @@ namespace ModifiedKruskalAlgorithm
         }
     }
 }
+
+//node2.Parent = node1;
+//node1.Children.Add(node2);
+//foreach (var child in node2.Children)
+//{
+//    child.Parent = node1;
+//    node1.Children.Add(child);
+//}
+//node2.Children = new List<Node>();
