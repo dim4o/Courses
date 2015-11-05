@@ -6,7 +6,7 @@
 
     public class SetCover
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             var universe = new[] { 1, 3, 5, 7, 9, 11, 20, 30, 40 };
             var sets = new[]
@@ -23,7 +23,7 @@
             Console.WriteLine("Sets to take ({0}):", selectedSets.Count);
             foreach (var set in selectedSets)
             {
-                Console.WriteLine("{{ {0)} }}", string.Join(", ", set));
+                Console.WriteLine("{{ {0} }}", string.Join(", ", set));
             }
         }
 
