@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\05-EgyptianFractions\bin\Debug\05-EgyptianFractions.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\05-EgyptianFractions\bin\Debug\05-EgyptianFractions.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\05-EgyptianFractions\bin\Debug\05-EgyptianFractions.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\05-EgyptianFractions\obj\Debug\05-EgyptianFractions.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\05-EgyptianFractions\obj\Debug\05-EgyptianFractions.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\05-EgyptianFractions\obj\Debug\05-EgyptianFractions.csprojResolveAssemblyReference.cache

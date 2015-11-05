@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\04-BestLecturesSchedule\bin\Debug\04-BestLecturesSchedule.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\04-BestLecturesSchedule\bin\Debug\04-BestLecturesSchedule.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\04-BestLecturesSchedule\bin\Debug\04-BestLecturesSchedule.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\04-BestLecturesSchedule\obj\Debug\04-BestLecturesSchedule.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\04-BestLecturesSchedule\obj\Debug\04-BestLecturesSchedule.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\04-BestLecturesSchedule\obj\Debug\04-BestLecturesSchedule.pdb

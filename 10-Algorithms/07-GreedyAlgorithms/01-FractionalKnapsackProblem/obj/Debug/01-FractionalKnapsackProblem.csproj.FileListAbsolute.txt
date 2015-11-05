@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\01-FractionalKnapsackProblem\bin\Debug\01-FractionalKnapsackProblem.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\01-FractionalKnapsackProblem\bin\Debug\01-FractionalKnapsackProblem.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\01-FractionalKnapsackProblem\bin\Debug\01-FractionalKnapsackProblem.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\01-FractionalKnapsackProblem\obj\Debug\01-FractionalKnapsackProblem.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\01-FractionalKnapsackProblem\obj\Debug\01-FractionalKnapsackProblem.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\01-FractionalKnapsackProblem\obj\Debug\01-FractionalKnapsackProblem.pdb

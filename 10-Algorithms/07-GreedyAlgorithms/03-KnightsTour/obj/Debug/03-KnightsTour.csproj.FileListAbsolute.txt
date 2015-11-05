@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTour\bin\Debug\03-KnightsTour.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTour\bin\Debug\03-KnightsTour.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTour\bin\Debug\03-KnightsTour.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTour\obj\Debug\03-KnightsTour.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTour\obj\Debug\03-KnightsTour.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTour\obj\Debug\03-KnightsTour.pdb

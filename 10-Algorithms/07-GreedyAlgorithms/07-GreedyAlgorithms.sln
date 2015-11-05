@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework", "Homework", "{24675C28-2FC3-4505-95F5-8A69808E0DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-BestLecturesSchedule", "04-BestLecturesSchedule\04-BestLecturesSchedule.csproj", "{81BCFDE6-F93E-47DD-BBF5-9674D63C1CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-EgyptianFractions", "05-EgyptianFractions\05-EgyptianFractions.csproj", "{C0581F52-9E87-4F8E-821E-B550959B8B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-KnightsTour", "03-KnightsTour\03-KnightsTour.csproj", "{A63E81D4-EB8F-4036-9117-C95AD736AC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-FractionalKnapsackProblem", "01-FractionalKnapsackProblem\01-FractionalKnapsackProblem.csproj", "{ECFEBC74-79EF-4480-87E5-3CCE6C966856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-ProcessorScheduling", "02-ProcessorScheduling\02-ProcessorScheduling.csproj", "{2455D17C-EF3F-4EC5-BF9B-0172620EECE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab", "Lab", "{5A1FC4DC-24A2-4F04-A836-694DFBB37B31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{415529D6-2F4D-45AF-90A4-674BBBE896B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81BCFDE6-F93E-47DD-BBF5-9674D63C1CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BCFDE6-F93E-47DD-BBF5-9674D63C1CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BCFDE6-F93E-47DD-BBF5-9674D63C1CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BCFDE6-F93E-47DD-BBF5-9674D63C1CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0581F52-9E87-4F8E-821E-B550959B8B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0581F52-9E87-4F8E-821E-B550959B8B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0581F52-9E87-4F8E-821E-B550959B8B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0581F52-9E87-4F8E-821E-B550959B8B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63E81D4-EB8F-4036-9117-C95AD736AC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63E81D4-EB8F-4036-9117-C95AD736AC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63E81D4-EB8F-4036-9117-C95AD736AC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63E81D4-EB8F-4036-9117-C95AD736AC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFEBC74-79EF-4480-87E5-3CCE6C966856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFEBC74-79EF-4480-87E5-3CCE6C966856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFEBC74-79EF-4480-87E5-3CCE6C966856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFEBC74-79EF-4480-87E5-3CCE6C966856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2455D17C-EF3F-4EC5-BF9B-0172620EECE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2455D17C-EF3F-4EC5-BF9B-0172620EECE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2455D17C-EF3F-4EC5-BF9B-0172620EECE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2455D17C-EF3F-4EC5-BF9B-0172620EECE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81BCFDE6-F93E-47DD-BBF5-9674D63C1CFA} = {24675C28-2FC3-4505-95F5-8A69808E0DAF}
+		{C0581F52-9E87-4F8E-821E-B550959B8B66} = {24675C28-2FC3-4505-95F5-8A69808E0DAF}
+		{A63E81D4-EB8F-4036-9117-C95AD736AC0C} = {24675C28-2FC3-4505-95F5-8A69808E0DAF}
+		{ECFEBC74-79EF-4480-87E5-3CCE6C966856} = {24675C28-2FC3-4505-95F5-8A69808E0DAF}
+		{2455D17C-EF3F-4EC5-BF9B-0172620EECE2} = {24675C28-2FC3-4505-95F5-8A69808E0DAF}
+	EndGlobalSection
+EndGlobal

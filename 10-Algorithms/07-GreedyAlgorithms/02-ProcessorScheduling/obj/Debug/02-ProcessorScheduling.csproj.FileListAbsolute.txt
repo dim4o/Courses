@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\02-ProcessorScheduling\bin\Debug\02-ProcessorScheduling.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\02-ProcessorScheduling\bin\Debug\02-ProcessorScheduling.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\02-ProcessorScheduling\bin\Debug\02-ProcessorScheduling.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\02-ProcessorScheduling\obj\Debug\02-ProcessorScheduling.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\02-ProcessorScheduling\obj\Debug\02-ProcessorScheduling.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\02-ProcessorScheduling\obj\Debug\02-ProcessorScheduling.pdb
