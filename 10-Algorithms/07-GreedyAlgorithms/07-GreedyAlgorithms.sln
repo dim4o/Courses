@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00-SetCover", "00-SetCover\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00-SetCover.Tests", "00-SetCover.Tests\00-SetCover.Tests.csproj", "{3EA179B2-02B4-413C-9020-CEE0545A692B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-KnightsTourWithBacktracking", "03-KnightsTourWithBacktracking\03-KnightsTourWithBacktracking.csproj", "{00818660-1CFC-4B8C-A43F-F1F5B9FF6B0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{3EA179B2-02B4-413C-9020-CEE0545A692B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EA179B2-02B4-413C-9020-CEE0545A692B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EA179B2-02B4-413C-9020-CEE0545A692B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00818660-1CFC-4B8C-A43F-F1F5B9FF6B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00818660-1CFC-4B8C-A43F-F1F5B9FF6B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00818660-1CFC-4B8C-A43F-F1F5B9FF6B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00818660-1CFC-4B8C-A43F-F1F5B9FF6B0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,5 +89,6 @@ Global
 		{2B4F61F8-7D89-48E1-8A39-9A8746D2BC16} = {415529D6-2F4D-45AF-90A4-674BBBE896B4}
 		{909541FC-F819-4F7F-9D70-2CB2B3D4604A} = {5A1FC4DC-24A2-4F04-A836-694DFBB37B31}
 		{3EA179B2-02B4-413C-9020-CEE0545A692B} = {415529D6-2F4D-45AF-90A4-674BBBE896B4}
+		{00818660-1CFC-4B8C-A43F-F1F5B9FF6B0C} = {24675C28-2FC3-4505-95F5-8A69808E0DAF}
 	EndGlobalSection
 EndGlobal

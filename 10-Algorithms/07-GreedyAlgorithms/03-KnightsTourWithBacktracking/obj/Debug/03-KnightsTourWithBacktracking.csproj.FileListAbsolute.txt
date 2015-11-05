@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTourWithBacktracking\bin\Debug\03-KnightsTourWithBacktracking.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTourWithBacktracking\bin\Debug\03-KnightsTourWithBacktracking.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTourWithBacktracking\bin\Debug\03-KnightsTourWithBacktracking.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTourWithBacktracking\obj\Debug\03-KnightsTourWithBacktracking.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTourWithBacktracking\obj\Debug\03-KnightsTourWithBacktracking.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\03-KnightsTourWithBacktracking\obj\Debug\03-KnightsTourWithBacktracking.pdb
