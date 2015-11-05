@@ -1,0 +1,7 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\00-SetCover.Tests\bin\Debug\SetCover.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\00-SetCover.Tests\bin\Debug\SetCover.Tests.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\00-SetCover.Tests\bin\Debug\SetCover.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\00-SetCover.Tests\bin\Debug\SetCover.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\00-SetCover.Tests\obj\Debug\00-SetCover.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\00-SetCover.Tests\obj\Debug\SetCover.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\00-SetCover.Tests\obj\Debug\SetCover.Tests.pdb

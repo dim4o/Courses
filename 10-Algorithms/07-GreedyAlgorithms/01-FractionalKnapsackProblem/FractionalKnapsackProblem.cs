@@ -9,6 +9,7 @@ class FractionalKnapsackProblem
         Console.Write("Items: ");
         int itemsCount = int.Parse(Console.ReadLine());
         var items = new dynamic[itemsCount];
+
         for (int i = 0; i < itemsCount; i++)
         {
             var currentLine = Console.ReadLine()

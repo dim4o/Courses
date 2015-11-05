@@ -1,0 +1,1 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\07-GreedyAlgorithms\00-SumOfCoins\bin\Debug\SumOfCoins.exe.config
