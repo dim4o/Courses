@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-KnapsackProblem\bin\Debug\00-KnapsackProblem.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-KnapsackProblem\bin\Debug\00-KnapsackProblem.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-KnapsackProblem\bin\Debug\00-KnapsackProblem.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-KnapsackProblem\obj\Debug\00-KnapsackProblem.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-KnapsackProblem\obj\Debug\00-KnapsackProblem.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-KnapsackProblem\obj\Debug\00-KnapsackProblem.csprojResolveAssemblyReference.cache

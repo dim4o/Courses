@@ -1,0 +1,7 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\02-LongestZigzagSubsequence.Tests\bin\Debug\02-LongestZigzagSubsequence.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\02-LongestZigzagSubsequence.Tests\bin\Debug\02-LongestZigzagSubsequence.Tests.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\02-LongestZigzagSubsequence.Tests\bin\Debug\02-LongestZigzagSubsequence.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\02-LongestZigzagSubsequence.Tests\bin\Debug\02-LongestZigzagSubsequence.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\02-LongestZigzagSubsequence.Tests\obj\Debug\02-LongestZigzagSubsequence.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\02-LongestZigzagSubsequence.Tests\obj\Debug\02-LongestZigzagSubsequence.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\02-LongestZigzagSubsequence.Tests\obj\Debug\02-LongestZigzagSubsequence.Tests.pdb

@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence\bin\Debug\00-LongestCommonSubsequence.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence\bin\Debug\00-LongestCommonSubsequence.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence\bin\Debug\00-LongestCommonSubsequence.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence\obj\Debug\00-LongestCommonSubsequence.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence\obj\Debug\00-LongestCommonSubsequence.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence\obj\Debug\00-LongestCommonSubsequence.pdb

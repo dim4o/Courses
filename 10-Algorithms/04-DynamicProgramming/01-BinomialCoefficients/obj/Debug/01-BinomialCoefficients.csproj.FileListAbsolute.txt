@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\01-BinomialCoefficients\bin\Debug\01-BinomialCoefficients.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\01-BinomialCoefficients\bin\Debug\01-BinomialCoefficients.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\01-BinomialCoefficients\bin\Debug\01-BinomialCoefficients.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\01-BinomialCoefficients\obj\Debug\01-BinomialCoefficients.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\01-BinomialCoefficients\obj\Debug\01-BinomialCoefficients.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\01-BinomialCoefficients\obj\Debug\01-BinomialCoefficients.pdb

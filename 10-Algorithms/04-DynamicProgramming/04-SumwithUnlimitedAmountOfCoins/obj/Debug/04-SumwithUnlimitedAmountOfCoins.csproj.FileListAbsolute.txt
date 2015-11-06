@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\04-SumwithUnlimitedAmountOfCoins\bin\Debug\04-SumwithUnlimitedAmountOfCoins.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\04-SumwithUnlimitedAmountOfCoins\bin\Debug\04-SumwithUnlimitedAmountOfCoins.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\04-SumwithUnlimitedAmountOfCoins\bin\Debug\04-SumwithUnlimitedAmountOfCoins.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\04-SumwithUnlimitedAmountOfCoins\obj\Debug\04-SumwithUnlimitedAmountOfCoins.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\04-SumwithUnlimitedAmountOfCoins\obj\Debug\04-SumwithUnlimitedAmountOfCoins.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\04-SumwithUnlimitedAmountOfCoins\obj\Debug\04-SumwithUnlimitedAmountOfCoins.csprojResolveAssemblyReference.cache

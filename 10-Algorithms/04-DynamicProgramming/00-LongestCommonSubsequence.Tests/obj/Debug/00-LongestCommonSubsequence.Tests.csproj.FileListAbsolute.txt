@@ -1,0 +1,7 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence.Tests\bin\Debug\00-LongestCommonSubsequence.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence.Tests\bin\Debug\00-LongestCommonSubsequence.Tests.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence.Tests\bin\Debug\00-LongestCommonSubsequence.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence.Tests\bin\Debug\00-LongestCommonSubsequence.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence.Tests\obj\Debug\00-LongestCommonSubsequence.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence.Tests\obj\Debug\00-LongestCommonSubsequence.Tests.dll
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\00-LongestCommonSubsequence.Tests\obj\Debug\00-LongestCommonSubsequence.Tests.pdb
