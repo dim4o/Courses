@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-SumWithLimitedAmountOfCoins\bin\Debug\05-SumWithLimitedAmountOfCoins.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-SumWithLimitedAmountOfCoins\bin\Debug\05-SumWithLimitedAmountOfCoins.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-SumWithLimitedAmountOfCoins\bin\Debug\05-SumWithLimitedAmountOfCoins.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-SumWithLimitedAmountOfCoins\obj\Debug\05-SumWithLimitedAmountOfCoins.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-SumWithLimitedAmountOfCoins\obj\Debug\05-SumWithLimitedAmountOfCoins.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-SumWithLimitedAmountOfCoins\obj\Debug\05-SumWithLimitedAmountOfCoins.pdb

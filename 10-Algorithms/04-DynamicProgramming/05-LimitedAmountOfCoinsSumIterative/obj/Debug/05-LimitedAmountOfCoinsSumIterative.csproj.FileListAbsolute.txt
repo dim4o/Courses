@@ -1,0 +1,6 @@
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-LimitedAmountOfCoinsSumIterative\bin\Debug\05-LimitedAmountOfCoinsSumIterative.exe.config
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-LimitedAmountOfCoinsSumIterative\bin\Debug\05-LimitedAmountOfCoinsSumIterative.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-LimitedAmountOfCoinsSumIterative\bin\Debug\05-LimitedAmountOfCoinsSumIterative.pdb
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-LimitedAmountOfCoinsSumIterative\obj\Debug\05-LimitedAmountOfCoinsSumIterative.csprojResolveAssemblyReference.cache
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-LimitedAmountOfCoinsSumIterative\obj\Debug\05-LimitedAmountOfCoinsSumIterative.exe
+C:\Users\Dimcho\Documents\Visual Studio 2013\Projects\03_Algorithms\04-DynamicProgramming\05-LimitedAmountOfCoinsSumIterative\obj\Debug\05-LimitedAmountOfCoinsSumIterative.pdb
